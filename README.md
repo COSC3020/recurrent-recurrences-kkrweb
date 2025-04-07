@@ -26,13 +26,32 @@ $$ T(n) =
     \end{cases}
 $$
 
+
 //
+
 
 Name: Kane Kriz
 
 Start Date: 12 Feb 2025
 
-Response: INCOMPLETE
+Last Edited: 7 April 2025
+
+
+//
+
+
+Response: WIP
+
+1:
+
+
+2:
+
+
+3:
+
+
+//
 
 
 Plagiarism Acknowledgement: I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
