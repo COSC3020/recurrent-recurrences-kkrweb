@@ -42,19 +42,51 @@ Feedback Request 1 Date: X
 //
 
 
-Response Part 1, Recurrence Relation 1:
+**Response Part 1, Recurrence Relation 1:**
+
+(Using substitution method for recurrences)
+
+The base case occurs when n ≤ 1.
+
+When the base case condition is met, the function returns in constant time, giving us $T(n) = 1$.
+
+For the case where n > 1, the function makes a single recursive call to $T(n/13)$.
+
+Additionally, a constant amount of work is performed (+ 5).
+
+Next we can expand the recurrence using substitution.
+
+The first expansion gives us $T(n) = T(n/13) + 5$. 
+
+Substituting again, we get $T(n) = [T(n/13²) + 5] + 5 = T(n/13²) + 2 * 5$
+
+Observing this substitution pattern after i substitutions, the recurrence relation is $T(n) = T(n/13^i) + 5 * i$.
+
+The recursion continues until we reach the base case, which occurs when $n/13^i ≤ 1$. 
+
+We know the base case is observed at $n/13^i ≤ 1$ due to the recursive calls continually dividing n by 13 until the problem size becomes 1 or smaller, which triggers the base case condition where the function returns immediately.
+
+Solving for i, this occurs at $i = log_13 n$.
+
+At this point, we can express the complete expansion as $T(n) = T(1) + 5 * log_13 n = 1 + 5 * log_13 n$.
+
+Within asymptotic analysis, the log term dominates that of the constant term, which becomes irrelevant.
+
+The logarithm utilizing base 13 can be simplified into Θ(log n), as the base becomes irrelevant in big Theta asymptotic notation.
+
+Due to this, the solution to recurrence relation 1 is: $T(n) ∈ Θ(log n)$.
 
 
 //
 
 
-Response Part 2, Recurrence Relation 2:
+**Response Part 2, Recurrence Relation 2:**
 
 
 //
 
 
-Response Part 3, Recurrence Relation 3:
+**Response Part 3, Recurrence Relation 3:**
 
 
 //
