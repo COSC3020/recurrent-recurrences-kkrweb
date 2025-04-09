@@ -106,8 +106,6 @@ At this point, the expansion is now: $T(n) = 13^{\log_{13} n} * 1 + 5*[(13^{\log
 
 For asymptotic analysis, the linear term dominates that of the constant terms, which become irrelevant.
 
-The logarithm utilizing base 13 can be simplified into Θ(log n), as the base becomes irrelevant in big Theta asymptotic notation.
-
 Due to this, the solution to recurrence relation 2 is: $T(n) ∈ Θ(n)$.
 
 
