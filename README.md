@@ -34,26 +34,33 @@ Name: Kane Kriz
 
 Start Date: 12 Feb 2025
 
-Last Edited: 7 April 2025
+Last Edited: 9 April 2025
+
+Feedback Request 1 Date: X
 
 
 //
 
 
-Response: WIP
-
-1:
+Response Part 1, Recurrence Relation 1:
 
 
-2:
+//
 
 
-3:
+Response Part 2, Recurrence Relation 2:
+
+
+//
+
+
+Response Part 3, Recurrence Relation 3:
 
 
 //
 
 
 Plagiarism Acknowledgement: I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 
 Citations:
