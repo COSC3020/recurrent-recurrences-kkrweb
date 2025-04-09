@@ -58,7 +58,7 @@ Next we can expand the recurrence using substitution.
 
 The first expansion gives us $T(n) = T(n/13) + 5$. 
 
-Substituting again, we get $T(n) = [T(n/13²) + 5] + 5 = T(n/13²) + 2 * 5$
+Substituting again, we get $T(n) = [T(n/13^2) + 5] + 5 = T(n/13^2) + 2 * 5$
 
 Observing this substitution pattern after i substitutions, the recurrence relation is $T(n) = T(n/13^i) + 5 * i$.
 
@@ -146,3 +146,10 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 
 Citations:
+
+github LaTeX formatting documentation, provided from the other exercises.
+
+“Substitution Method to Solve Recurrence Relations.” GeeksforGeeks, 18 Mar. 2024, www.geeksforgeeks.org/substitution-method-to-solve-recurrence-relations/.
+
+For help with substitution logic and notation where applicable: 
+Su, Jessica. CS 161 Lecture 3. https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture3.pdf
