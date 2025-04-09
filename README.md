@@ -66,9 +66,9 @@ The recursion continues until we reach the base case, which occurs when $n/13^i 
 
 We know the base case is observed at $n/13^i ≤ 1$ due to the recursive calls continually dividing n by 13 until the problem size becomes 1 or smaller, which triggers the base case condition where the function returns immediately.
 
-Solving for i, this occurs at $i = log_13 n$.
+Solving for i, this occurs at $i = \log_{13} n$.
 
-At this point, we can express the complete expansion as $T(n) = T(1) + 5 * log_13 n = 1 + 5 * log_13 n$.
+At this point, we can express the complete expansion as $T(n) = T(1) + 5 * \log_{13} n = 1 + 5 * \log_{13} n$.
 
 Within asymptotic analysis, the log term dominates that of the constant term, which becomes irrelevant.
 
